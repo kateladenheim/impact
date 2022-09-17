@@ -1,0 +1,41 @@
+html, body {
+  padding: 25px;
+}
+
+h1 {
+  font-family: acumin-pro-condensed, sans-serif;
+  color: black;
+  font-size: 42px;
+}
+
+#countdown {
+    font-family: acumin-pro-condensed, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    text-transform: lowercase;
+    color: black;
+}
+
+button {
+  margin: 10px 0;
+  display: block;
+  width: 100%;
+  background-color: black;
+  color: white;
+  border-radius: none;
+  font-family: acumin-pro-condensed, sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  text-transform: lowercase;
+  padding: 15px;
+  text-align: left;
+}
+
+#content {
+    font-family: acumin-pro-condensed, sans-serif;
+    font-weight: 600;
+  font-size: 18px;
+    font-style: normal;
+    text-transform: lowercase;
+    color: black;
+}
