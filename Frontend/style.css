@@ -9,10 +9,11 @@ h1 {
   margin: 0;
 }
 
-p {
+p, #waiting {
   font-family: acumin-pro-condensed, sans-serif;
   color: black;
   font-size: 18px;
+  margin: 20px 0px;
 }
 
 a#watcher {
@@ -35,6 +36,7 @@ a#watcher {
     font-style: normal;
     text-transform: lowercase;
     color: black;
+  margin: 20px 0;
 }
 
 button {

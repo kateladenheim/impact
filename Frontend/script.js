@@ -9,8 +9,9 @@ server.on("connect", function () {
 
 server.on("fall", function (data) {
   console.log("Fall noted:", data);
+  document.getElementById("waiting").innerHTML = "You just saw someone fall. What was it like?";
 
-  var timeleft = 9;
+  var timeleft = data.window;
   var downloadTimer = setInterval(function () {
     if (timeleft <= 0) {
       clearInterval(downloadTimer);
@@ -24,6 +25,10 @@ server.on("fall", function (data) {
 
   var elem = document.getElementById("content");
   elem.innerHTML = "";
+
+  document.getElementById("countdown").innerHTML =
+    timeleft + " seconds left to vote";
+  timeleft -= 1;
 
   for (let opt of options) {
     var button = document.createElement("button");
@@ -67,5 +72,5 @@ server.on("ack", function (data) {
   }
   var elem = document.getElementById("vote" + data);
   elem.style.backgroundColor = "black";
-  elem.style.fontSize = "24px";
+  // elem.style.fontSize = "24px";
 });
