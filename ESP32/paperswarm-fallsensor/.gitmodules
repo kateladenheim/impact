@@ -1,0 +1,18 @@
+[submodule "libs/AutoConnect"]
+	path = lib/AutoConnect
+	url = https://github.com/Hieromon/AutoConnect.git
+[submodule "libs/PageBuilder"]
+	path = lib/PageBuilder
+	url = https://github.com/Hieromon/PageBuilder.git
+[submodule "libs/ArduinoJson"]
+	path = lib/ArduinoJson
+	url = https://github.com/bblanchon/ArduinoJson.git
+[submodule "libs/arduinoWebSockets"]
+	path = lib/arduinoWebSockets
+	url = https://github.com/Links2004/arduinoWebSockets.git
+[submodule "libs/arduino-timer"]
+	path = lib/arduino-timer
+	url = https://github.com/contrem/arduino-timer.git
+[submodule "lib/ESP32_AnalogWrite"]
+	path = lib/ESP32_AnalogWrite
+	url = https://github.com/erropix/ESP32_AnalogWrite.git
